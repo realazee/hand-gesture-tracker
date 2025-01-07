@@ -7,7 +7,9 @@ Hand Gesture Tracking
  The problem is to create a hand gesture tracking system that is able to receive a live feed from a
  webcam and recognize hand gestures in that live feed. The results are useful because the gesture
  classifications can then be used to control systems, or even train ML-based algorithms.
- Method and Implementation:
+ 
+ # Method and Implementation:
+ 
  Step 1:
  The camera data is captured using the default webcam on the device running the Jupyter
  Notebook. On macOS devices, it utilizes Apple’s Continuity Camera feature which allows for
@@ -45,8 +47,8 @@ a part of the contour mask representing your hand itself) are counted, and then 
  different backgrounds and webcams, with 25 trials performed per project partner, 5 per gesture
  per participant and 10 total. .
 
-
- Program Strengths:
+ # Program Strengths:
+ 
  Reliable operation and a simple algorithm, with relatively high tolerance for environmental
  factors such as different lighting conditions, skin color and exceptional accuracy for certain
  gestures, given a clean background.
@@ -69,7 +71,8 @@ a part of the contour mask representing your hand itself) are counted, and then 
  isn't clean or the fingers aren’t spaced out
 
  
- Credits and Bibliography
+# Credits and Bibliography
+
  Convex Hull algos:
  https://en.m.wikipedia.org/wiki/Convex_hull_algorithms
  Simplest Convex Hull Algo:
